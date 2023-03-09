@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="container">
+    <div class="logo">
+        <img class="logoimg" src="./imagenes/logo alura.png">
+        <h1 class="tittle">Encriptador</h1>
+        
+    </div>
+    <div class="left">
+        <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese aqui el texto">
+        <footer>
+            <p class="pie"><strong>© Creado por Abraham Valeriano</strong></p>
+         </footer>
+        </div>
+
+    <div class="right">
+        <img src="imagenes/muñeco.png" id="imgder">
+        <h1 id="texto"></h1>
+         <textarea id="texto2" name="name" rows="5" cols="34">Ningun mensaje fue encontrado</textarea>
+         <button id="copiar" type="button" name="button" onclick="copy()">¡copiar!</button>
+         
+    </div>
+    <div class="left-buttom">
+        <p># Solo minusculas y sin acentos.</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        
+    </div>
+ </div>
+
+ </body>
+</html>
